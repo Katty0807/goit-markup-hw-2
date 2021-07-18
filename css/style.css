@@ -1,3 +1,114 @@
-.title {
-  color: antiquewhite;
+body {
+  color: #757575;
+}
+
+li {
+  list-style: none;
+}
+
+/*header*/
+
+.nav-logo-color {
+  color: #212121;
+}
+.logo-color {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .nav-link a:active {
+  color: #2196f3;
+}
+.auth-nav .link {
+  color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+/*section hero*/
+
+.section-hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.section-title {
+  color: #ffffff;
+}
+.section-hero button {
+  color: #ffffff;
+  background: #2196f3;
+}
+.section-hero button:hover,
+.section-hero button:focus {
+  color: #ffffff;
+  background: #2196f3;
+  display: inline-block;
+}
+
+/*section benefits*/
+.benefits-title {
+  display: none;
+}
+.benefits-text h3 {
+  color: #212121;
+}
+
+/*work*/
+.work-title {
+  color: #212121;
+}
+
+/*our team*/
+.group {
+  background-color: #f5f4fa;
+}
+.our-team {
+  color: #212121;
+}
+.team h3 {
+  color: #212121;
+}
+.team p {
+  color: #757575;
+}
+
+/*our work*/
+.our-work {
+  stroke: #eeeeee;
+}
+.our-work .button {
+  color: #212121;
+  background: #f5f4fa;
+}
+.our-work .button:hover,
+.our-work .button:focus {
+  color: #ffffff;
+  background: #2196f3;
+  display: inline-block;
+  text-align: center;
+}
+.our-work button:active {
+  color: #2196f3;
+}
+/*footer*/
+footer {
+  background-color: black;
+}
+.logo {
+  color: #ffffff;
+}
+.logo-color {
+  color: #2196f3;
+}
+.address-color {
+  color: #ffffff;
+}
+.address-color a {
+  color: #757575;
 }

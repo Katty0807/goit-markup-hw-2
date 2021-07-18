@@ -6,42 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title lang="en">WebStudio</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 <body>
     <header>
 
-        <a href="/" class="" lang="en">
-            WebStudio
+        <nav class="nav-links" >
+        <a href="/" class="nav-logo-color" lang="en">
+            <span class="logo-color">Web</span>Studio
         </a>
-
-        <nav>
-            <ul>
-                <li> <a href="./index.html">Студия</a></li>
-                <li> <a href="./portfolio.html">Портфолио</a> </li>
-                <li> <a href="">Контакты</a></li>
+            <ul class="site-nav">
+                <li class="nav-link"> <a class="link" href="./index.html">Студия</a></li>
+                <li> <a class="link" href="./portfolio.html">Портфолио</a> </li>
+                <li> <a class="link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-            <li>+38 096 111 11 11</li>
+        <ul class="auth-nav">
+            <li><a class="link" lang="en" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+            <li>
+                <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
         </ul>
 
     </header>
 
     <main>
 
-        <div>
-            <section>
-                <h1>Эффективные решения для вашего бизнеса </h1>
-                <button type="button">Заказать услугу</button>
+            <section class="section-hero">
+                <h1 class="section-title">Эффективные решения для вашего бизнеса </h1>
+                <button type="button" class="button">Заказать услугу</button>
             </section>
-        </div>
+        
 
-        <section>
-            <h2>Наши преимущества</h2>
-            <ul>
-                <li>
+        <section class="benefits">
+            <h2 class="benefits-title">Наши преимущества</h2>
+            <ul class="benefits-text">
+                <li >
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
@@ -61,16 +63,18 @@
 
         </section>
 
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <img src="image/our_work/img1sq.jpg" alt="фото 1" width="370">
-            <img src="image/our_work/img2sq.jpg" alt="фото 2" width="370">
-            <img src="image/our_work/img3sq.jpg" alt="фото 3" width="370">
+        <section class="work">
+            <h2 class="work-title">Чем мы занимаемся</h2>
+            <ul>
+                <li><img src="image/our_work/img1sq.jpg" alt="фото 1" width="370"></li>
+                <li><img src="image/our_work/img2sq.jpg" alt="фото 2" width="370"></li>
+                <li><img src="image/our_work/img3sq.jpg" alt="фото 3" width="370"></li>
+            </ul>
         </section>
 
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <section class="group">
+            <h2 class="our-team">Наша команда</h2>
+            <ul class="team">
                 <li> <img src="image/img1(1)sq.jpg" alt="Игорь Демьяненко" width="270">
                     <h3>Игорь Демьяненко</h3>
                     <p lang="en">Product Designer</p>
@@ -95,15 +99,15 @@
 
     </main>
 
-    <footer>
-        <a href="/" class="" lang="en">
-            WebStudio
+    <footer class="footer">
+        <a href="/" class="logo" lang="en">
+        <span class="logo-color">Web</span>Studio
         </a>
-        <address>
-            г. Киев, пр-т Леси Украинки, 26 <br>
-            info@example.com <br>
-            +38 099 111 11 11
-        </address>
+    <address class="address-color">
+        г. Киев, пр-т Леси Украинки, 26 <br>
+        <a href="mailto:info@example.com">info@example.com</a> <br>
+        <a href="tel:+380991111111">+38 099 111 11 11</a>
+    </address>
     </footer>
 
 </body>
