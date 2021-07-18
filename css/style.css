@@ -21,7 +21,8 @@ li {
 .site-nav .link:focus {
   color: #2196f3;
 }
-.site-nav .nav-link a:active {
+.site-nav .nav-link a:active,
+.site-nav .nav-link a:visited {
   color: #2196f3;
 }
 .auth-nav .link {
