@@ -1,5 +1,13 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+  --white-color: #ffffff;
+}
+
 body {
   color: #757575;
+  font-family: Roboto, sans-serif;
 }
 
 li {
@@ -8,14 +16,28 @@ li {
 
 /*header*/
 
-.nav-logo-color {
+.nav-logo {
   color: #212121;
+  font-family: Raleway, sans-serif;
+  font-style: Bold;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 3%;
 }
+
 .logo-color {
   color: #2196f3;
 }
 .site-nav .link {
   color: #212121;
+}
+.nav-links ul {
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -40,10 +62,17 @@ li {
 }
 .section-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 }
 .section-hero button {
   color: #ffffff;
   background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
 }
 .section-hero button:hover,
 .section-hero button:focus {
@@ -58,11 +87,22 @@ li {
 }
 .benefits-text h3 {
   color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.benefits-text p {
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /*work*/
 .work-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /*our team*/
@@ -71,12 +111,24 @@ li {
 }
 .our-team {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 .team h3 {
   color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 .team p {
   color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 /*our work*/
@@ -86,6 +138,11 @@ li {
 .our-work .button {
   color: #212121;
   background: #f5f4fa;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 .our-work .button:hover,
 .our-work .button:focus {
@@ -94,8 +151,23 @@ li {
   display: inline-block;
   text-align: center;
 }
-.our-work button:active {
+.our-work button:active,
+.our-work button:visited {
   color: #2196f3;
+}
+
+.our-work .benefits-text h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+}
+
+.our-work .benefits-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
 }
 /*footer*/
 footer {
@@ -103,13 +175,25 @@ footer {
 }
 .logo {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
 }
+
 .logo-color {
   color: #2196f3;
 }
-.address-color {
+.address {
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
-.address-color a {
+.address a {
   color: #757575;
+}
+.address a:hover,
+.address a:focus {
+  color: #2196f3;
 }
