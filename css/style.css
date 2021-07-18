@@ -157,7 +157,10 @@ a {
 .our-work button:visited {
   color: var(--accent-color);
 }
-
+.our-work .button-style button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
 .our-work .benefits-text h3 {
   font-weight: 700;
   font-size: 18px;
