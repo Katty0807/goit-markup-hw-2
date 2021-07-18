@@ -6,31 +6,33 @@
 }
 
 body {
-  color: #757575;
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
 
 li {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+}
 /*header*/
 
 .nav-logo {
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-style: Bold;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 3%;
+  letter-spacing: 0, 03em;
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .nav-links ul {
   font-style: Medium;
@@ -41,18 +43,18 @@ li {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .nav-link a:active,
 .site-nav .nav-link a:visited {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .auth-nav .link {
-  color: #757575;
+  color: var(--secondary-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*section hero*/
 
@@ -61,14 +63,14 @@ li {
   text-align: center;
 }
 .section-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
 .section-hero button {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white-color);
+  background: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -76,8 +78,8 @@ li {
 }
 .section-hero button:hover,
 .section-hero button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white-color);
+  background: var(--accent-color);
   display: inline-block;
 }
 
@@ -86,7 +88,7 @@ li {
   display: none;
 }
 .benefits-text h3 {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -98,7 +100,7 @@ li {
 
 /*work*/
 .work-title {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -110,21 +112,21 @@ li {
   background-color: #f5f4fa;
 }
 .our-team {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 .team h3 {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .team p {
-  color: #757575;
+  color: var(--secondary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -136,7 +138,7 @@ li {
   stroke: #eeeeee;
 }
 .our-work .button {
-  color: #212121;
+  color: var(--primary-text-color);
   background: #f5f4fa;
   cursor: pointer;
   font-weight: 500;
@@ -146,14 +148,14 @@ li {
 }
 .our-work .button:hover,
 .our-work .button:focus {
-  color: #ffffff;
+  color: var(--white-color);
   background: #2196f3;
   display: inline-block;
   text-align: center;
 }
 .our-work button:active,
 .our-work button:visited {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .our-work .benefits-text h3 {
@@ -174,7 +176,7 @@ footer {
   background-color: black;
 }
 .logo {
-  color: #ffffff;
+  color: var(--white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -182,18 +184,18 @@ footer {
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .address {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
 .address a {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 .address a:hover,
 .address a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
